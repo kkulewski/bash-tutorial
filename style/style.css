@@ -14,11 +14,21 @@
 }
 
 .header {
-	background-color: #FF8E00;
+	float: left;
+	font-family: 'Lobster', cursive;
+	font-size: 1.6em;
+	padding-left: 2%;
+}
+
+.header small {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.4em;
+	margin-left: 8px;
 }
 
 .menu {
-	background-color: #FFBA00;
+	background-color: #FFA100;
+	font-family: 'Lobster', cursive;
 	text-align: right;
 	padding-right: 10%;
 	font-size: 1.6em;
@@ -58,7 +68,8 @@
 }
 
 .footer {
-	background-color: #FFBA00;
+	background-color: #FFA100;
+		font-family: 'Lobster', cursive;
 	text-align: center;
 	padding: 1%;
 	box-shadow: 0px -3px 2px 0px #555;
