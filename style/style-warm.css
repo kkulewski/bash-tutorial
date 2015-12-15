@@ -4,13 +4,13 @@
 }
 
 .site {
-	background-color: #FFE1B2;
+	background-color: #FACC75;
 	border-style: solid;
 	border-width: 2px;
-	margin-top: 4%;
-	margin-bottom: 4%;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 12%;
+	margin-right: 12%;
 }
 
 .header {
@@ -26,7 +26,7 @@
 }
 
 .header a:hover {
-	color: #FFE1B2;
+	color: #FACC75;
 	text-decoration: none;
 }
 
@@ -37,11 +37,12 @@
 }
 
 .menu {
-	background-color: #FFA100;
+	background-color: #FF9400;
 	font-family: 'Lobster', cursive;
 	text-align: right;
 	padding-right: 10%;
 	font-size: 1.6em;
+	box-shadow: 0px 3px 2px 0px #555;
 
 }
 
@@ -52,9 +53,10 @@
 
 .menu li {
 	display: inline;
-	color: #FFE1B2;
-	background-color: #FFE1B2;
+	color: #FACC75;
+	background-color: #FACC75;
 	margin-left: 1%;
+	padding-bottom: 6px;
 	box-shadow: -3px -2px 2px 0px #555555;
 }
 
@@ -62,15 +64,20 @@
 	text-decoration: none;
 	padding-left: 15px;
 	padding-right: 15px;
+	margin-bottom: 5px;
 	color: #000;
 }
 
-.menu li:hover {
-	background-color: #777;
+.menu li.active a {
+	color: #FF3100;
+}
+
+.menu li.active a:hover {
+	color: #FF3100;
 }
 
 .menu li a:hover {
-	color: #FFE1B2;
+	color: #777;
 }
 
 .content {
@@ -78,9 +85,15 @@
 	padding-right: 3%;
 }
 
+.content p {
+	margin-top: -12px;
+
+	padding-bottom: 1%;
+}
+
 .footer {
-	background-color: #FFA100;
-		font-family: 'Lobster', cursive;
+	background-color: #FF9400;
+	font-family: 'Lobster', cursive;
 	text-align: center;
 	padding: 1%;
 	box-shadow: 0px -3px 2px 0px #555;
