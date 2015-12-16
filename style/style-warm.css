@@ -106,6 +106,7 @@
 .footer {
 	background-color: #FF9400;
 	font-family: 'Lobster', cursive;
+	font-size: 1em;
 	text-align: center;
 	padding: 1%;
 	box-shadow: 0px -3px 2px 0px #555;
