@@ -70,6 +70,7 @@
 
 .menu li.active a {
 	color: #FF3100;
+	box-shadow: 0px -2px 2px 0px #FF3100;
 }
 
 .menu li.active a:hover {
@@ -77,7 +78,7 @@
 }
 
 .menu li a:hover {
-	color: #777;
+	color: #FF3100;
 }
 
 .content {
