@@ -109,6 +109,18 @@
 	font-size: 1.1em;
 }
 
+.content p.note {
+	background-color: #8A9289;
+	color: #000;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #ccc;
+	border-radius: 10px;
+	padding: 15px 15px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
 .content a.ico {
 	font-family: 'Lobster', cursive;
 	font-size: 1.2em;
