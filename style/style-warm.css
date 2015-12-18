@@ -135,8 +135,9 @@ p.code.white {
 	color: #FFF;
 }
 
-p.code.yellow {
-	color: yellow;
+p.code.orange {
+	color: #F19500;
+	
 }
 
 p.note {
