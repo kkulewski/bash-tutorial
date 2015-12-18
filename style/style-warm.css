@@ -90,6 +90,10 @@
 	border-color: #EEC070;
 }
 
+.post.n {
+	border-width: 0;
+}
+
 .post p.tag {
 	float: right;
 	font-size: 0.7em;
@@ -109,13 +113,26 @@
 p.code {
 	font-family: 'Inconsolata';
 	background-color: #000;
-	color: #0E9600;
+	border-color: #0E9600;
 	border-style: solid;
 	border-width: 1px;
 	padding: 5px 8px;
 	margin-left: 1%;
 	margin-right: 30%;
 	font-size: 1.1em;
+}
+
+p.code.green {
+	color: #0E9600;
+
+}
+
+p.code.white {
+	color: #FFF;
+}
+
+p.code.yellow {
+	color: yellow;
 }
 
 p.note {
