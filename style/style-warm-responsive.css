@@ -1,16 +1,13 @@
 ﻿body {
 	background-color: #34312E;
 	font-family: 'Open Sans', sans-serif;
-
 }
 
 .site {
 	background-color: #FACC75;
 	border-style: solid;
 	border-width: 2px;
-	width: 850px;
-	margin: 20px auto;
-
+	margin: 2% 15%;
 }
 
 .header {
@@ -40,7 +37,7 @@
 	font-family: 'Lobster', cursive;
 	font-size: 1.6em;
 	text-align: right;
-	padding-right: 50px;
+	padding-right: 10%;
 	box-shadow: 0px 3px 2px 0px #555;
 }
 
