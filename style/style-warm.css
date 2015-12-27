@@ -172,8 +172,23 @@
 	padding: 0px 15px 15px 15px;
 }
 
+.post.n h3 {
+	margin-top: 20px;
+}
+
 .post h3::before {
 	content: "# ";
+}
+
+p.source {
+	background-color: #aaa;
+	padding: 10px;
+	margin: 15px 40px 15px 40px;
+	font-family: 'Inconsolata';
+	font-size: 1.2em;
+	border-style: dashed;
+	border-width: 1px;
+	border-radius: 5px;
 }
 
 p.code {
@@ -185,6 +200,8 @@ p.code {
 	padding: 5px 8px;
 	margin-left: 5px;
 	margin-right: 200px;
+	margin-top: 10px;
+	margin-bottom: 15px;
 	font-size: 1.1em;
 }
 
